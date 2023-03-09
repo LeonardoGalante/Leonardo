@@ -1,0 +1,118 @@
+html {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body{
+ 
+    background-color: #F9F5E7;
+}
+header {
+    background-color: #E7DEC8;
+    width: 100%;
+    height: 80px;
+    font-size: large;
+    margin-bottom:0;
+    margin-top:0;
+    display: flex;
+    justify-content: center;
+  
+  }
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#menu ul li a {
+    text-decoration: none;
+    padding: 2px 7px 2px 7px;
+    color: #444;
+    font-weight: bold;
+  }
+  #menu ul li a:hover {
+      background-color: #333333;
+      color:#ffffff;
+  }
+  .box1{
+    width: 95%;
+    height: 250px;
+    background-color:#CBAF87 ;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+}
+.img1{
+    max-width:320px;
+    float: left;
+    border: 3px solid #ffffff ;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.box1{
+    width: 95%;
+    height: 250px;
+    background-color:#7E8A97 ;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+}
+
+.box2{
+    width: 95%;
+    height: 250px;
+    background-color:#30475E ;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+}
+
+.img1{
+    max-width:320px;
+    float: left;
+    border: 3px solid #ffffff ;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.img2{
+    max-width:320px;
+    float: right;
+    border: 3px solid #ffffff ;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: bolder;
+}
+p{
+    font-size: 16px;
+
+}
+ footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #442;
+	background-color: #E7DEC8;
+	padding: 20px 0;
+    font-weight: bold;
+}

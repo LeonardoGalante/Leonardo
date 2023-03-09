@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Slab:wght@300;400&family=Tilt+Prism&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <nav>
+              <ul>
+                <li><a href="index.html">Informacion Personal</a></li>
+                <li><a href="Exp-Lab.html">Experiencia Laboral</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+          </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div class="form">
+
+        <div class="formulario">
+          <h1>Contactame</h1>
+              <form action="submeter-formulario.php" method="post">
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio"></span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+    
+                    <p>
+                      <label for="email" class="colocar email">Email
+                        <span class="obligatorio"></span>
+                      </label>
+                        <input type="email" name="introducir email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+    
+                    <p>
+                      <label for="asunto" class="colocar asunto">Asunto
+                        <span class="obligatorio"></span>
+                      </label>
+                        <input type="text" name="introducir asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>
+    
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio"></span>
+                      </label>
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>
+                 
+                    <button type="submit" name="enviar" id="enviar"><p>Enviar</p></button>
+              
+              </form>
+        </div>
+      </div>
+
+
+
+    <footer>
+		<p>Curriculum Vitae - Leonardo Galante</p>
+	</footer>
+</body>
+</html>

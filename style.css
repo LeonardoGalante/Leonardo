@@ -1,0 +1,128 @@
+html {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body{
+    background-color: #F9F5E7;
+}
+/*nav bar*/
+header {
+    background-color: #E7DEC8;
+    width: 100%;
+    height: 80px;
+    font-size: large;
+    margin-bottom:0;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+  }
+
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#menu ul li a {
+    text-decoration: none;
+    padding: 2px 7px 2px 7px;
+    color: #444;
+    font-weight: bold;
+  }
+  #menu ul li a:hover {
+      background-color: #333333;
+      color:#ffffff;
+  }
+/*cuerpo-contenido principal*/
+  .name{
+      width: 100%;
+      height: 300px;
+      background-color: #CBAF87;
+      
+  }
+  .name .img{
+    position: absolute;
+    top:15%;
+    right:5%;
+    width:180px;
+    height:180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.name .img img{
+    width:180px;
+    height:180px;
+   
+}
+ .name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+  }
+  .name .content  h1{
+      color: white;
+      font-weight: bolder;
+      font-size: 65px;
+      margin-bottom:0;
+      display: flex;
+      justify-content: center;
+  }
+  .name .content .p-1{
+    color: white;
+    font-size: 35px;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info{
+      width: 95%;
+      height: auto;
+      background-color:#CBAF87 ;
+      margin: 2% auto;
+      padding: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 10px;
+  }
+  
+  .info .p-2{
+      color:#30475E;
+      font-weight: bolder;
+      font-size: 25px;
+      text-align: center;
+      border-bottom:2px #30475E solid;
+  }
+.info .p-3{
+    color:#30475E;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    display:inline;
+    margin-right: 15px;
+}
+.info .p-4{
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    display:inline;
+}
+
+footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #444;
+	background-color: #E7DEC8;
+	padding: 20px 0;
+    font-weight: bold;
+}
